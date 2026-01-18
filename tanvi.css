@@ -1,0 +1,590 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.heading{
+    font-family: Segoe Print;
+    background-color: #fff1f7;
+    text-align: center;
+    font-size: 40px;
+    height:75px;
+    padding-top:1px;
+text-shadow: 2px 0px pink;
+    box-shadow: 2px 5px 7px rgb(250, 170, 184);
+    font-weight:600;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+.heading span{
+    color: rgb(255, 0, 85);
+}
+
+
+nav {
+    height: 530px;
+
+
+    background-image: url('https://www.datocms-assets.com/32926/1618324837-herobannermothersdayprefooter1.jpg?h=600');
+
+    background-image: url('https://img.freepik.com/premium-photo/pink-flower-pink-background-with-copy-space_1000124-4119.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+
+}
+
+
+nav .logo {
+
+    padding-left: 39px;
+
+}
+
+/* nav .logo b{
+    color: rgb(255, 0, 140);
+font-size: 29px;
+line-height: 90px;;
+font-family:Lucida Handwriting;
+text-shadow: 2px 1px 2px wheat;
+font-style:italic;
+
+
+} */
+nav .logo img {
+    width: 130px;
+    height: 70px;
+}
+
+nav .logo img:hover {
+    transform: scale(1.2);
+    transition: .8s;
+}
+
+nav ul {
+    float: right;
+    margin-right: 32px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 90px;
+    margin: 0px 13px;
+
+}
+
+nav ul li a {
+    color: black;
+    font-family: Gabriola;
+    font-size: 20px;
+    font-weight: 600px;
+    text-shadow: 1px 1px 4px rgb(255, 0, 85);
+}
+
+.sidebar {
+    position: fixed;
+    top: 20;
+    right: 0;
+    height: 80vh;
+    background-image: url('https://img.freepik.com/premium-photo/pink-flower-pink-background-with-copy-space_1000124-4119.jpg');
+    width: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 5px black;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    display: none;
+    padding-top: 10px;
+    margin: 5px;
+}
+
+.sidebar p {
+    padding: 10px 22px 1px 22px;
+    font-size: 19px;
+}
+
+.sidebar li {
+    width: 200px;
+
+    font-size: 18px;
+    text-align: center;
+    font-family: Berlin Sans FB;
+    border: 2px solid pink;
+    box-shadow: 2px 2px 5px palevioletred;
+    ;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.sidebar li:hover {
+    border: 2px solid rgb(104, 99, 99);
+}
+
+.sidebar a {
+
+    color: black;
+
+}
+
+.kt {
+    display: none;
+}
+
+
+
+
+.icon_box {
+    margin-top: 13px;
+    margin-left: 5px;
+
+}
+
+
+.icon_box i {
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 90%;
+    box-shadow: 2px 2px 6px black;
+    margin: 4px;
+    font-size: 15px;
+    width: 29px;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+    align-items: center;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.icon_box i:hover {
+    filter: grayscale(.30);
+    transition: .4s;
+    transform: scale(1.1);
+}
+.he1{
+    padding-left:59px;
+    padding-top: 55px;
+
+}
+.he1 h1{
+    font-family: Bradley Hand ITC;
+    color:rgb(245, 67, 126); ;
+    font-size: 3.5rem;
+    text-shadow: 1px 1px 4px rgb(222, 35, 154);
+}
+.he1 h2{
+font-size: 2.4rem;
+margin-top:11px;
+font-family: Bradley Hand ITC;
+text-shadow: 1px 1px 3px  rgb(222, 35, 154);
+}
+.he1 p{
+    margin-top:22px;
+    font-family: Gabriola;
+    font-size: 1.4rem;
+    width:510px;
+    line-height: 29px;
+    text-shadow: 0px 0.1px 1px  rgb(222, 35, 154);
+}
+
+.he1 button{
+    margin-top:25px;
+padding:9px 25px 9px 25px;
+border:3px solid rgb(245, 67, 126); 
+color:white;
+border-radius:5px;
+font-size: 19px;
+font-family: Footlight MT Light;
+background-color:rgb(245, 67, 126); 
+cursor: pointer;
+font-weight: bold;
+
+}
+.he1 button:hover{
+    background-color:white;
+    color:rgb(245, 67, 126); 
+    font-weight: bold;
+}
+
+.snd{
+    display: flex;
+    flex-wrap: wrap;
+    padding:40px;
+}
+.snd img{
+    width: 290px;
+    height: 430px;
+    border-radius: 3px;}
+.img2{
+    margin-top:22px;
+    margin-left: 5px;
+}
+.sndcnt{
+    margin-top:52px;
+    margin-left:10px;
+    text-align: center;
+}
+.sndcnt h5{
+font-family: Bradley Hand ITC;
+font-size: 22px;
+color:#FF77B7;
+}
+.sndcnt h2{
+    margin-top: 5px;
+    font-family: Book Antiqua;
+    font-size: 29px;
+    color:rgb(245, 67, 126); 
+font-weight: normal;
+text-shadow: 0.1px 1px 1px rgb(222, 35, 154);
+    }
+.sndcnt p{
+    margin-top: 13px;
+    width:500px;
+    text-align: center;
+    font-style: italic;
+    font-size:19px;
+    line-height: 23px;
+    font-family: Gabriola;
+    word-spacing: 6px;
+    letter-spacing: 0.6px;
+}
+.sndcnt button{
+    margin-top:18px;
+    
+padding:9px 25px 9px 25px;
+border:3px solid rgb(237, 74, 128); 
+color:white;
+border-radius:5px;
+font-size: 19px;
+font-family: Footlight MT Light;
+background-color:rgb(245, 67, 126); 
+cursor: pointer;
+font-weight: bold;
+
+}
+.sndcnt button:hover{
+    background-color:white;
+    color:rgb(245, 67, 126); 
+    font-weight: bold;
+}
+.cr{
+    display: flex;
+    padding: 10px 63px;
+    flex-wrap: wrap;
+    
+}
+.cr img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 18px;
+}
+.cr .gg{
+    font-family: Gabriola;
+    font-size: 20px;
+ margin: 30px 12px ;
+ font-weight: bold;
+ letter-spacing: 1px;
+
+}
+.vv{
+    display: flex;
+}
+
+.cr1,.cr2,.cr3{
+    border:8px solid rgb(238, 233, 233);
+  
+    box-shadow: 0px 2px 5px rgb(123, 118, 118);
+    width:350px;
+    margin: 10px;
+    height:280px;
+}
+.cr i{
+    color:rgb(245, 67, 126); 
+}
+.cr p{
+    font-family:Californian FB;
+    font-size: 16px;
+    font-weight: none;
+    margin-top: 12px;
+    line-height: 22px;
+  width:310px;
+}
+.thypart{
+    display: flex;
+    padding: 10px 99px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.thy1{
+
+background-image: url('https://static.vecteezy.com/system/resources/thumbnails/023/787/466/small/spring-flowers-bouquet-on-pastel-background-top-view-in-flat-lay-style-generative-ai-photo.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width:330px;
+height:230px;
+margin-left:15px;
+border-radius: 3px;
+}
+.thy2{
+   
+    background-image: url('https://static.vecteezy.com/system/resources/previews/022/130/856/non_2x/banner-with-daisies-copy-space-top-view-festive-background-generative-ai-free-photo.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:330px;
+    height:230px;
+    margin-left:15px;
+    border-radius: 3px;
+    }
+    .thy3{
+        background-image: url('https://static.vecteezy.com/system/resources/thumbnails/053/279/896/small/simple-and-elegant-composition-with-empty-space-photo.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width:330px;
+        height:230px;
+        margin-left:15px;
+        border-radius: 3px;
+        }
+
+.thypart h4{
+   margin-top: 39px;
+   margin-left: 42px;
+   font-size: 39px;
+   font-family:Gabriola;
+}    
+
+.thypart p{
+ 
+   margin-left: 52px;
+   font-size: 22px;
+   color: #ff0077;
+   font-family:Segoe Print;
+font-weight: bold;
+text-shadow: 1px 1px 1px black;}
+
+   .thypart span{
+    margin-left: 52px;
+    font-size: 22px;
+    font-family:Segoe Print;
+    font-weight:500;
+   }
+.thy2 p{
+    margin-left: 67px;
+    margin-top: 66px;
+    font-size: 22px;
+    color: #ff0077;
+    font-family:Segoe Print;
+ font-weight: bold;
+ text-shadow: 1px 1px 1px black; 
+}
+
+.blgpst{
+    display: flex;
+    background-image: url('https://media.istockphoto.com/id/1135359711/photo/roasted-coffee-beans-falling-down.jpg?b=1&s=612x612&w=0&k=20&c=0hiBvtcklmZ4X8UsWHvWGa4EYKurBHx9tNf3ZGvj0kY=');
+    background-position: center;
+    background-repeat: no-repeat;
+    background:scroll;
+    background-size: cover;
+    backface-visibility: hidden;
+ flex-wrap: wrap;
+
+    
+   }
+   .blgpostbx {
+    border:1px solid white;
+    background-color: rgb(249, 223, 227);
+    border-radius: 3px;
+    padding:4px;
+    margin-left:44px;
+    margin-top:35px;
+    width:350px;
+    margin-bottom: 44px;
+   
+   }
+   .blgpostbx img{
+    width: 340px;
+    height: 360px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+   }
+   .blgpostbx h2{
+    font-size: 25px;
+    margin-left:9px;
+    margin-top:15px;
+    font-family:Pristina;
+   }
+   .blgpostbx h4{
+    font-size: 19px;
+    margin-left:9px;
+    margin-top:6px;
+    font-family:Berlin Sans FB;
+    font-weight: 100;
+    color:rgb(255, 0, 85);
+   }
+   .blgpostbx h4 i{
+    color:black;
+    font-size: 16px;
+    margin-right: 7px;
+   }
+   .blgpostbx p{
+    font-size: 18px;
+    margin-left:9px;
+    margin-top:10px;
+    font-family:Berlin Sans FB;
+    font-weight: normal;
+    line-height: 23px;
+   }
+   .blgpostbx button{
+    font-size: 16px;
+    font-family:Berlin Sans FB;
+    margin-left:9px;
+    margin-top:10px;
+    margin-bottom:12px;
+    padding:8px 22px 8px 22px;
+    background-color:rgb(243, 60, 121);
+    color:white;
+    font-weight:400;
+   border:2px solid rgb(243, 60, 121);
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.blgpostbx button:hover{
+    background-color: white;
+    
+    border-color:rgb(243, 60, 121);
+    color:rgb(243, 60, 121);
+}
+.blgpostbx .onek{
+    font-size: 16px;
+    font-family:Berlin Sans FB;
+    margin-left:9px;
+    margin-top:9px;
+    margin-bottom:12px;
+    padding:7px 22px 7px 22px;
+    background-color: white;
+    color:rgb(243, 60, 121);
+    font-weight:400;
+   border:2px solid rgb(243, 60, 121);
+    border-radius: 4px; 
+}
+.blgpostbx .onek:hover{
+    background-color: rgb(243, 60, 121);
+    
+    border-color:rgb(243, 60, 121);
+    color:white;
+}
+.gallery{
+    display: flex;
+   flex-wrap: wrap;
+    padding-left:50px;
+}
+ 
+.gallery .gp1 img{
+    height: 544px;
+    width: 340px;
+}
+.gallery .gp2{
+   margin-left: 5px;
+    width:800px;
+
+}
+.gallery .gp2 img{
+   border-radius: 4px;
+     
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 800px) {
+    .k {
+        display: none;
+    }
+
+    .kt {
+        display: block;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .kt {
+        margin-top: 38px;
+        font-size: 22px;
+        
+    }
+    .he1 h1{
+        font-size: 2.8rem;
+    }
+
+    .he1 h2{
+        font-size: 2rem;
+    }
+    
+    .he1 p{
+        width:390px;
+    }
+    .snd img{
+        width: 199px;
+        height: 330px;
+        border-radius: 3px;}
+    .img2{
+        margin-top:22px;
+       
+    }
+    .sndcnt{
+        margin-left:5px;
+    
+            margin-top:39px;
+    }
+   
+    .sndcnt p{
+        width:410px;
+        text-align:center;
+    }
+}
+
+@media(min-width: 500px) {
+    .sidebar {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
